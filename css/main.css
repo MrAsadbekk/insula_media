@@ -481,6 +481,22 @@ a {
   margin-left: 70px;
 }
 
+.studied__box-one {
+  display: flex;
+}
+
+.studied__box-two {
+  display: flex;
+}
+
+.studied__box-three {
+  display: flex;
+}
+
+.studied__box-four {
+  display: none;
+}
+
 .feedback__container {
   padding-top: 80px;
   padding-bottom: 105px;
@@ -528,6 +544,14 @@ a {
 
 .carousel-indicators .active {
   background-color: #ee1b24;
+}
+
+.carousel__img {
+  display: block;
+}
+
+.carousel__img-two {
+  display: none;
 }
 
 .checking__container {
@@ -605,6 +629,53 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
+}
+
+.footer__logo-two {
+  display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+  .studied__box-one {
+    display: none;
+  }
+
+  .studied__box-two {
+    display: none;
+  }
+
+  .studied__box-three {
+    display: none;
+  }
+
+  .studied__box-four {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .studied__box-img1 {
+    margin-left: auto;
+  }
+
+  .studied__box-img4 {
+    margin-right: auto;
+  }
+
+  .studied__box-img5 {
+    margin-left: auto;
+  }
+
+  .studied__box-img8 {
+    margin-right: auto;
+  }
+
+  .studied__box-img3 {
+    margin-left: auto;
+  }
+
+  .studied__box-img7 {
+    margin-left: auto;
+  }
 }
 
 @media only screen and (max-width: 1390px) {
@@ -745,6 +816,14 @@ a {
   .carousel__text {
     font-size: 18px;
     line-height: 150%;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__box {
+    justify-content: space-between;
   }
 }
 
@@ -893,6 +972,49 @@ a {
 
   .carousel-item {
     margin-left: 0;
+  }
+
+  .checking__title {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .form__box-one {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .checking__name {
+    width: 464px;
+  }
+
+  .checking__email {
+    margin-left: 0;
+  }
+
+  .checking__form {
+    position: relative;
+  }
+
+  .checking__btn {
+    font-size: 14px;
+    line-height: 130%;
+    margin-left: 0;
+    position: absolute;
+    bottom: -80px;
+  }
+
+  .studied__box-four {
+    grid-template-columns: auto auto auto;
+  }
+
+  .studied__box-img1 {
+    display: none;
+  }
+
+  .studied__box-img5 {
+    display: none;
   }
 }
 
@@ -1054,6 +1176,23 @@ a {
     padding-left: 30px;
     gap: 30px;
   }
+
+  .checking__name {
+    width: 340px;
+  }
+
+  .checking__email {
+    width: 340px;
+  }
+
+  .checking__checkbox {
+    margin-left: auto;
+  }
+
+  .checking__text {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -1117,6 +1256,36 @@ a {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .feedback__container {
+    padding-top: 30px;
+  }
+
+  .carousel-item {
+    width: 350px;
+    margin-left: 40px;
+  }
+
+  .carousel__title {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .carousel__text-one {
+    margin-left: 10px;
+    line-height: 150%;
+  }
+
+  .carousel__text {
+    margin-left: 10px;
+  }
+
+  .carousel__decaration {
+    width: 200px;
+  }
+}
+
 @media only screen and (max-width: 430px) {
   .intro__container {
     background-position: center calc(50% - 70px);
@@ -1152,10 +1321,90 @@ a {
     font-size: 12px;
     line-height: 130%;
   }
+
+  .carousel-item {
+    margin-left: 20px;
+  }
+
+  .footer__text-one {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .footer__text-two {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .footer__link {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .footer__logo-one {
+    display: none;
+  }
+
+  .footer__logo-two {
+    display: block;
+  }
+
+  .studied__box-four {
+    grid-template-columns: auto;
+  }
+
+  .studied__box-img2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .studied__box-img3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .studied__box-img4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .studied__box-img6 {
+    display: none;
+  }
+
+  .studied__box-img7 {
+    display: none;
+  }
+
+  .studied__box-img8 {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .new__box-btn {
     width: 200px;
+  }
+
+  .carousel-item {
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .carousel__img {
+    display: none;
+  }
+
+  .carousel__img-two {
+    display: block;
+  }
+
+  .checking__name {
+    width: 272px;
+  }
+
+  .checking__email {
+    width: 272px;
   }
 }

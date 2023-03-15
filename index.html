@@ -436,7 +436,7 @@
       <section class="studied">
         <div class="container studied__container">
           <h2 class="studied__title mb-5">Нас читают</h2>
-          <div class="d-flex align-items-center ms-auto me-auto">
+          <div class="align-items-center ms-auto me-auto studied__box-one">
             <img
               class="m-0 p-0 studied__img-1"
               src="./img/studiet_1.png"
@@ -454,7 +454,7 @@
             />
             <img class="studied__img-4" src="./img/studiet_4.png" alt="" />
           </div>
-          <div class="d-flex align-items-center ms-auto me-auto">
+          <div class="align-items-center ms-auto me-auto studied__box-two">
             <img
               class="m-0 p-0 studied__img-5"
               src="./img/studiet_5.png"
@@ -471,7 +471,7 @@
               alt=""
             />
           </div>
-          <div class="d-flex align-items-center ms-auto me-auto">
+          <div class="align-items-center ms-auto me-auto studied__box-three">
             <img class="studied__img-8" src="./img/studiet_8.png" alt="" />
             <img
               class="m-0 p-0 studied__img-9"
@@ -484,6 +484,16 @@
               alt=""
             />
             <img class="studied__img-11" src="./img/studiet_11.png" alt="" />
+          </div>
+          <div class="studied__box-four">
+            <img class="studied__box-img1" src="./img/s1_1024.png" alt="" />
+            <img class="studied__box-img2" src="./img/s2_1024.png" alt="" />
+            <img class="studied__box-img3" src="./img/s3_1024.png" alt="" />
+            <img class="studied__box-img4" src="./img/s4_1024.png" alt="" />
+            <img class="studied__box-img5" src="./img/s5_1024.png" alt="" />
+            <img class="studied__box-img6" src="./img/s4_1024.png" alt="" />
+            <img class="studied__box-img7" src="./img/s2_1024.png" alt="" />
+            <img class="studied__box-img8" src="./img/s6_1024.png" alt="" />
           </div>
         </div>
       </section>
@@ -515,13 +525,17 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active bg-white">
-                <div class="d-flex mb-4">
-                  <img src="./img/carousel_1.png " class="d-block" alt="..." />
-                  <div class="pt-5 ps-5">
-                    <h2 class="m-0 p-0 mb-1 carousel__title">
+                <div class="d-flex mb-4 carousel__box">
+                  <img
+                    src="./img/carousel_1.png "
+                    class="carousel__img"
+                    alt="..."
+                  />
+                  <div class="pt-sm-5 ps-sm-5">
+                    <h2 class="m-sm-0 p-sm-0 mb-1 carousel__title">
                       Шурыгин Константин Анатольевич
                     </h2>
-                    <p class="m-0 p-0">
+                    <p class="m-sm-0 p-sm-0 carousel__text-one">
                       Заместитель генерального директора по сбыту в компании
                       «Ротек»
                     </p>
@@ -631,8 +645,8 @@
           <h2 class="checking__title">
             Ознакомьтесь с текущим номером бесплатно
           </h2>
-          <form>
-            <div class="d-flex align-items-center mb-5">
+          <form class="checking__form">
+            <div class="d-flex align-items-center mb-5 form__box-one">
               <input class="checking__name" type="text" placeholder="Имя" />
               <input
                 class="checking__email"
@@ -641,9 +655,9 @@
               />
               <button class="checking__btn">Заказать сейчас</button>
             </div>
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center form__box-two">
               <input class="checking__checkbox" type="checkbox" />
-              <p class="checking__text m-0 p-0 ms-3">
+              <p class="checking__text m-sm-0 p-sm-0 ms-3">
                 Даю согласие на обработку персональных данных
               </p>
             </div>
@@ -655,18 +669,24 @@
       <div class="container footer__container d-flex">
         <div>
           <a class="d-block mb-4" href="index.html"
-            ><img src="./img/footer_logo.svg" alt="" width="216"
-          /></a>
-          <div class="d-flex">
+            ><img
+              class="footer__logo-one"
+              src="./img/footer_logo.svg"
+              alt=""
+              width="216"
+            />
+            <img class="footer__logo-two" src="./img/footer_logo2.svg" alt="" />
+          </a>
+          <div class="d-flex footer__box">
             <p class="text-white footer__text-one">Телефон</p>
             <p class="ms-3 text-white footer__text-two">8 922 209 56 11</p>
           </div>
         </div>
-        <div class="d-flex ms-auto mt-auto">
+        <div class="d-flex ms-lg-auto mt-auto footer__box">
           <p class="text-white footer__text-one">Электронная почта</p>
           <a class="text-white ms-2 footer__link" href="#">Info@ins-media.ru</a>
         </div>
-        <div class="d-flex ms-auto mt-auto">
+        <div class="d-flex ms-lg-auto mt-auto footer__box">
           <p class="text-white footer__text-one">Facebook</p>
           <a class="text-white ms-2 footer__link" href="#">@power.island</a>
         </div>
