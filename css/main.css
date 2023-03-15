@@ -608,10 +608,6 @@ a {
 }
 
 @media only screen and (max-width: 1390px) {
-  .studied {
-    display: none;
-  }
-
   .carousel-item {
     margin-left: 150px;
   }
