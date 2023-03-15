@@ -607,13 +607,11 @@ a {
   line-height: 23px;
 }
 
-@media only screen and (max-width: 1400px) {
-  .studiet__container {
-    max-width: 100%;
-  }
-}
-
 @media only screen and (max-width: 1390px) {
+  .studied {
+    display: none;
+  }
+
   .carousel-item {
     margin-left: 150px;
   }
