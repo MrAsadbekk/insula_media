@@ -647,6 +647,11 @@ a {
   .new__box-item {
     width: 432px;
   }
+
+  .carousel-item {
+    margin-left: 120px;
+    width: 688px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -729,6 +734,21 @@ a {
 
   .new {
     background-position: center top;
+  }
+
+  .carousel-item {
+    width: 500px;
+    margin-left: 100px;
+  }
+
+  .carousel__title {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .carousel__text {
+    font-size: 18px;
+    line-height: 150%;
   }
 }
 
@@ -842,6 +862,41 @@ a {
 
   .box__two-text {
     width: unset;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .carousel-control-prev {
+    width: 56px;
+    height: 40px;
+    position: absolute;
+    bottom: -60px;
+    top: auto;
+    left: auto;
+    right: 96px;
+    background-color: white;
+  }
+
+  .carousel-control-next {
+    width: 56px;
+    height: 40px;
+    bottom: -60px;
+    top: auto;
+    background-color: white;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url(../img/back_768.svg);
+    background-size: unset;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url(../img/next_768.svg);
+    background-size: unset;
+  }
+
+  .carousel-item {
+    margin-left: 0;
   }
 }
 
@@ -1040,6 +1095,11 @@ a {
     margin-right: auto;
     display: block;
   }
+
+  .carousel-item {
+    width: 420px;
+    margin-left: 50px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1053,6 +1113,11 @@ a {
 
   .about__list-two {
     grid-template-columns: auto;
+  }
+
+  .carousel-item {
+    width: 420px;
+    margin-left: 20px;
   }
 }
 
